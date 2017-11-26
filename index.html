@@ -1,21 +1,51 @@
 <!DOCTYPE html>
+<!-- The photo website html script -->
 
 <html>
 	<head>
 		<title>Photos from the North Coast</title>
 		<link rel='stylesheet' type='text/css' href='styles.css'>
+		<link href='./css/bootstrap.css' rel='stylesheet'>
 	</head>
 
 	
 	<body>
-		<div><class="banner">
+		<div id='banner'>
 			<h1>Splendour of the North Coast</h1>
 		</div>
-		<div><id="main_part">
+		<div id="main_part">
+			<img src="photos/background.jpg" class="img-responsive" style='width:100%;'>
+			<p> This is the main paragraph part </p>
 
 		</div>
-		<div><class="banner">
+		<div id='btmbanner'>
+            <ul>
+				<li>Set of links</li>
+			</ul>
+			<div class='container'>
+			<div class='row'>
+				<div class='col-sm-3'>
+					<p> some text</p>
+	          		<img src="photos/background.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
+	            </div>
+	            <div class='col-sm-3'>
+	            	<p> Some more text </p>
+	          		<img src="photos/background.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
+	            </div>
+	            <div class='col-sm-3'>
+	          		<p> Some more text </p>
+	          		<img src="photos/background.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
+	            </div>
+	            <div class='col-sm-3'>
+	          		<p> Some more text </p>
+	          		<img src="photos/background.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
+	            </div>
+	        </div>  <!-- end of row -->
+	        <!-- SEt this up so that if you hover over displays where you are and takes you to selection of photos -->
+	    </div>
+			
 		</div>
+  </div>
 	</body>
 
 </html>

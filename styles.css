@@ -1,5 +1,30 @@
 /*The main stylesheet information to complement the bootstrap one*/
 
-.banner{
+/*
+h1{color:blue;
+text-align: center;}*/
+
+#banner{
 	background: blue;
+	background-size: cover;
+	color: rgba(255,255,245,0.9);
+	text-align: center;
+	
 }
+
+
+/*body{
+	background: <img src="photos/background.jpg">;
+	background-size: cover;
+}*/
+
+#btmbanner{
+	text-align: center;
+	border: 0;
+    padding: 0px;
+}
+
+
+
+
+/*background-position:center;*/
