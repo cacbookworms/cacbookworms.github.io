@@ -6,6 +6,8 @@
 		<title>Photos from the North Coast</title>
 		<link rel='stylesheet' type='text/css' href='styles.css'>
 		<link href='./css/bootstrap.css' rel='stylesheet'>
+		<script src="jquery.min.js"> </script>
+		<script src="javascript.js"></script>
 	</head>
 
 	
@@ -17,12 +19,15 @@
 			<!-- <img src="photos/background.jpg" class="img-responsive" style='width:100%;'> -->
 			<h1> A place of Outstanding Beauty </h1>
 			<p>The Causeway Coast has long been a place of outstanding natural beauty, providing several photo opportunities.
-			The Causeway Coast has been rated by the Lonely Planet as the best place to visit.</p>
+			The Causeway Coast and Belfast were rated by the Lonely Planet as the best place to visit in 2017.</p>
 			<div class='row'>
-			<div class='col-sm-8'>
-				<p id='snap'> So for those of you fortunate enough to have visited get snapping!
-				There will be a range of categories in which you can add your photos of this beautiful country.</p>
-			</div>	
+				<div class='col-sm-8'>
+					<p id='snap'> So for those of you fortunate enough to visit <b> get snapping </b>!
+					There will be a range of categories in which you can add your photos of this beautiful country.</p>
+				</div>
+				<div class='col-sm-4'>
+				<img src='photos/cameraicon.png' class='img-responsive' style='width:80%', style="vertical-align: middle"> 
+				</div>	
 		    </div>
 		</div>
 		<div id='picture_links'>
@@ -30,25 +35,25 @@
 			<p>We are taking photos for the following categories: </p>
 
 			<div class='row'>
-				<div class='col-lg-3 col-md-3 col-sm-1 col-xs-1'>
+				<div class='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
 					<!-- <p> some text</p> -->
 	          		<img src="photos/giantscauseway.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
 	            </div>
-	            <div class='col-lg-3 col-md-3 col-sm-1 col-xs-1'>
+	            <div class='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
 	            	<!-- <p> Some more text </p> -->
-	          		<img src="photos/giantscauseway.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
+	          		<img src="photos/rathlin.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
 	            </div>
-	            <div class='col-lg-3 col-md-3 col-sm-1 col-xs-1'>
+	            <div class='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
+	          		<!-- <p> Some more text </p> -->
+	          		<img src="photos/watertop.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
+	            </div>
+	            <div class='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
 	          		<!-- <p> Some more text </p> -->
 	          		<img src="photos/background.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
 	            </div>
-	            <div class='col-lg-3 col-md-3 col-sm-1 col-xs-1'>
-	          		<!-- <p> Some more text </p> -->
-	          		<img src="photos/background.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
-	            </div>
-	            <p id='qus'> Don't have the category you want? No problem! Just contact us and we will try to add it in. </p>
 	        </div>  <!-- end of row -->
 	        <!-- SEt this up so that if you hover over displays where you are and takes you to selection of photos -->
+	        <p> <small> Don't have the category you want? No problem! Just contact us and we will try to add it in. </small></p>
 			
 		</div>
 
@@ -58,14 +63,20 @@
 				<li>Set of links</li>
 			</ul> -->
 			<form role='form'>
-        <label for="email">Request new category</label>
-        <input type="text" name="email" >
-     <!--    <button type="submit">Success</button> -->
-        <button class='btn btn-success'>Send</button>
-      </form>
-    </div>
-		</div>
-  </div>
+		        <label for="email">Request new category</label>
+		        <input type="text" name="email" >
+		     <!--    <button type="submit">Success</button> -->
+		        <button class='btn btn-success'>Send</button>
+      		</form>
+
+
+      		    <input id="input" type="text">
+			    <button id="button">Add</button>
+			    <ul id="list">
+			      <li>Example</li>
+			    </ul>
+    	</div>
+
 	</body>
 
 </html>
