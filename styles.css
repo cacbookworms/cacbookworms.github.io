@@ -66,11 +66,15 @@ text-align: center;}*/
     border-radius: 20px;
 /*    border-color: rgba(255,255,255,1);*/
 }
- 
-#picture_links img:hover{
+  
+#picture_links img :hover{
 	opcaity:0.5;
 	filter: alpha(opacity=50); *//* For IE8 and earlier */
 } 
+
+/*hover {
+    background-color: yellow;
+}*/
 
 
 /*FOR THE HOVER OVER AND ADD TEXT BIT*/
