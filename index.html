@@ -6,16 +6,41 @@
 		<title>NICoastphotos</title>
 		<link rel='stylesheet' type='text/css' href='styles.css'>
 		<link href='./css/bootstrap.css' rel='stylesheet'>
-		<script src="jquery.min.js"> </script>
-		<script src="javascript.js"></script>
+		<!-- <script src="jquery.min.js"> </script>-->
+		<script src="bootstrap.min.js"> </script>
+		<script src="javascripts.js"></script>
+		<!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+<!-- 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+ 
+		<!-- Optional theme -->
+<!-- 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+		 
+		<!-- Latest compiled and minified JavaScript -->
+	<!-- 	// <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 	</head>
 
 	
 	<body>
 
-		<nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
+
+
+<!-- <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse" class="collapse navbar-collapse" role="navigation">
+<ul class="nav nav-pills">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages</a></li>
+</ul>
+</nav> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-inverse bg-inverse" class="collapse navbar-collapse" role="navigation">
 		  <a class="navbar-brand" href="#">Photos from the North Coast</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		 <!--  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> -->
+		  <!-- <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse"> -->
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNav">
@@ -32,9 +57,6 @@
 		    </ul>
 		  </div>
 		</nav>
-
-
-
 
 
 		<div id='banner'>
@@ -60,21 +82,24 @@
 			<p>We are taking photos for the following categories: </p>
 
 			<div class='row'>
-				<div class='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
-					<!-- <p> some text</p> -->
+				<div class='col-lg-3 col-md-3 col-sm-6 col-xs-12' id='GC'>
 	          		<img src="photos/giantscauseway.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
+	          		<a href="url">Giant's Causeway</a>
 	            </div>
-	            <div class='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
+	            <div class='col-lg-3 col-md-3 col-sm-6 col-xs-12' id='rath'>
 	            	<!-- <p> Some more text </p> -->
 	          		<img src="photos/rathlin.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
+	          		<a href="url">Rathlin Island</a>
 	            </div>
-	            <div class='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
+	            <div class='col-lg-3 col-md-3 col-sm-6 col-xs-12' id='wat'>
 	          		<!-- <p> Some more text </p> -->
 	          		<img src="photos/watertop.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
+	          		<a href="url">Watertop Farm</a>
 	            </div>
-	            <div class='col-lg-3 col-md-3 col-sm-6 col-xs-12'>
+	            <div class='col-lg-3 col-md-3 col-sm-6 col-xs-12' id='beach'>
 	          		<!-- <p> Some more text </p> -->
 	          		<img src="photos/background.jpg" class="rounded-circle  center-block", class='img-responsive' style='width:100%;'>
+	          		<a href="url">Castlerock Beach</a>
 	            </div>
 	        </div>  <!-- end of row -->
 	        <!-- SEt this up so that if you hover over displays where you are and takes you to selection of photos -->
@@ -94,12 +119,6 @@
 		        <button class='btn btn-success'>Send</button>
       		</form>
 
-
-      		    <input id="input" type="text">
-			    <button id="button">Add</button>
-			    <ul id="list">
-			      <li>Example</li>
-			    </ul>
     	</div>
 
 	</body>
