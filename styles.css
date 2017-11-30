@@ -1,10 +1,12 @@
 /*The main stylesheet information to complement the bootstrap one*/
 
-/*
-h1{color:blue;
-text-align: center;}*/
+/*Navigation bar styles*/
+.navbar h1{
+	color: rgba(140,255,255,1);
+	font-family: 'Raleway', sans-serif;
+}
 
-/*Banner styles*/
+/*Banner styles
 
 #banner{
 	background: rgba(50,20,240,0.95);
@@ -12,11 +14,11 @@ text-align: center;}*/
 	padding: 0 0 0 0;
 	color: rgba(255,255,255,0.9);
 	text-align: center;
-}
+}*/
 #banner h1{	font-size: 70px;
 	text-align: left;
 
-}
+} 
 
 
 /*Main part styles*/
