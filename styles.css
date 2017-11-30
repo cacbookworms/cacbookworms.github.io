@@ -90,6 +90,16 @@ text-align: center;}*/
     opacity: 1;
 }
 
+/*Bottom banner styles*/
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; 
+
+  display: flex;
+  align-items: center;
+}
+
 
 /*Media queries: ensure these stay at the end!!*/
 @media (max-width: 500px){
