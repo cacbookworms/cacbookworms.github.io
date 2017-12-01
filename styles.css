@@ -2,24 +2,10 @@
 
 /*Navigation bar styles*/
 .navbar h1{
+	font-size: 60px;
 	color: rgba(140,255,255,1);
 	font-family: 'Raleway', sans-serif;
 }
-
-/*Banner styles
-
-#banner{
-	background: rgba(50,20,240,0.95);
-	background-size: cover;
-	padding: 0 0 0 0;
-	color: rgba(255,255,255,0.9);
-	text-align: center;
-}*/
-#banner h1{	font-size: 70px;
-	text-align: left;
-
-} 
-
 
 /*Main part styles*/
 
@@ -58,6 +44,7 @@
     color: white;
 }
 
+
 #picture_links p{
 	font-size: 30px;
 }
@@ -67,7 +54,7 @@
     border-radius: 20px;
 } 
 
-#picture_links a{
+#photos a{       /*changed to new id so that we can set the last link as visible*/
 	color: white;
 	text-align: center;
     opacity: 0;
@@ -104,7 +91,11 @@
 
 
 /*Media queries: ensure these stay at the end!!*/
+@media (max-width: 800px){
+	.navbar h1 {font-size: 35px;}
+}
 @media (max-width: 500px){
+	.navbar h1 {font-size: 25px;}
 	#banner h1{	font-size: 35px;}
 	#main_part h1{font-size: 27px;}
 	#main_part p{font-size: 20px;}
